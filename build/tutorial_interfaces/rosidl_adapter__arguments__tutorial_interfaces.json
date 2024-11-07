@@ -1,0 +1,8 @@
+{
+  "package_name": "tutorial_interfaces",
+  "non_idl_tuples": [
+    "/home/artifex/ros2_hydrotest_sychev_3_srv/tutorial_interfaces:msg/Num.msg",
+    "/home/artifex/ros2_hydrotest_sychev_3_srv/tutorial_interfaces:msg/Sphere.msg",
+    "/home/artifex/ros2_hydrotest_sychev_3_srv/tutorial_interfaces:srv/AddThreeInts.srv"
+  ]
+}

@@ -1,0 +1,425 @@
+[0.000000] (-) TimerEvent: {}
+[0.000450] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000539] (tutorial_interfaces) JobQueued: {'identifier': 'tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.000594] (tutorial_interfaces) JobStarted: {'identifier': 'tutorial_interfaces'}
+[0.022482] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'cmake'}
+[0.023272] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/artifex/ros2_hydrotest_sychev_3_srv/tutorial_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces'], 'cwd': '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artifex'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/artifex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bbed8c95339cc136505cfcd1672ccd5a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'artifex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artifex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/artifex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/artifex-HP-Pavilion-Gaming-Laptop-15-ec2xxx:@/tmp/.ICE-unix/1415,unix/artifex-HP-Pavilion-Gaming-Laptop-15-ec2xxx:/tmp/.ICE-unix/1415'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f634899d_73e8_4e69_b67b_34b51d5f97bc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bbed8c95339cc136505cfcd1672ccd5a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[0.098284] (-) TimerEvent: {}
+[0.198960] (-) TimerEvent: {}
+[0.282605] (tutorial_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299066] (-) TimerEvent: {}
+[0.399599] (-) TimerEvent: {}
+[0.464591] (tutorial_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.485947] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.499708] (-) TimerEvent: {}
+[0.600143] (-) TimerEvent: {}
+[0.656256] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.672560] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.673655] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.675010] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.682810] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700276] (-) TimerEvent: {}
+[0.800726] (-) TimerEvent: {}
+[0.872112] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.888663] (tutorial_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.889362] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.890444] (tutorial_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.900834] (-) TimerEvent: {}
+[0.901448] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[1.001013] (-) TimerEvent: {}
+[1.101507] (-) TimerEvent: {}
+[1.201964] (-) TimerEvent: {}
+[1.278474] (tutorial_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.302089] (-) TimerEvent: {}
+[1.402539] (-) TimerEvent: {}
+[1.489768] (tutorial_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[1.502649] (-) TimerEvent: {}
+[1.590544] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[1.602765] (-) TimerEvent: {}
+[1.621959] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[1.669410] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.702904] (-) TimerEvent: {}
+[1.718577] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.803031] (-) TimerEvent: {}
+[1.903394] (-) TimerEvent: {}
+[1.965068] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[1.995740] (tutorial_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[2.003659] (-) TimerEvent: {}
+[2.104040] (-) TimerEvent: {}
+[2.204459] (-) TimerEvent: {}
+[2.304836] (-) TimerEvent: {}
+[2.405208] (-) TimerEvent: {}
+[2.505602] (-) TimerEvent: {}
+[2.606000] (-) TimerEvent: {}
+[2.706534] (-) TimerEvent: {}
+[2.806912] (-) TimerEvent: {}
+[2.841906] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[2.907046] (-) TimerEvent: {}
+[3.007413] (-) TimerEvent: {}
+[3.107796] (-) TimerEvent: {}
+[3.208172] (-) TimerEvent: {}
+[3.308574] (-) TimerEvent: {}
+[3.408955] (-) TimerEvent: {}
+[3.509333] (-) TimerEvent: {}
+[3.609712] (-) TimerEvent: {}
+[3.710090] (-) TimerEvent: {}
+[3.770605] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.810208] (-) TimerEvent: {}
+[3.910574] (-) TimerEvent: {}
+[4.010995] (-) TimerEvent: {}
+[4.111418] (-) TimerEvent: {}
+[4.130282] (tutorial_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.180509] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[4.184209] (tutorial_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[4.211533] (-) TimerEvent: {}
+[4.242894] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[4.243312] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.243513] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[4.243652] (tutorial_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[4.289265] (tutorial_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.311657] (-) TimerEvent: {}
+[4.411999] (-) TimerEvent: {}
+[4.427283] (tutorial_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.4 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[4.483094] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.487047] (tutorial_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.494275] (tutorial_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.512119] (-) TimerEvent: {}
+[4.596498] (tutorial_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[4.603270] (tutorial_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces\n'}
+[4.612265] (-) TimerEvent: {}
+[4.621148] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[4.622433] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'build'}
+[4.625107] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artifex'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/artifex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bbed8c95339cc136505cfcd1672ccd5a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'artifex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artifex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/artifex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/artifex-HP-Pavilion-Gaming-Laptop-15-ec2xxx:@/tmp/.ICE-unix/1415,unix/artifex-HP-Pavilion-Gaming-Laptop-15-ec2xxx:/tmp/.ICE-unix/1415'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f634899d_73e8_4e69_b67b_34b51d5f97bc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bbed8c95339cc136505cfcd1672ccd5a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[4.712451] (-) TimerEvent: {}
+[4.738233] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.757255] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_tutorial_interfaces\n'}
+[4.812585] (-) TimerEvent: {}
+[4.913210] (-) TimerEvent: {}
+[5.013626] (-) TimerEvent: {}
+[5.114009] (-) TimerEvent: {}
+[5.214447] (-) TimerEvent: {}
+[5.225142] (tutorial_interfaces) StdoutLine: {'line': b'[  1%] Built target tutorial_interfaces__rosidl_generator_type_description\n'}
+[5.249691] (tutorial_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.274550] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.302940] (tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.304207] (tutorial_interfaces) StdoutLine: {'line': b'creating tutorial_interfaces.egg-info\n'}
+[5.304690] (tutorial_interfaces) StdoutLine: {'line': b'writing tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.305025] (tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.305511] (tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.305974] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.310825] (tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.312207] (tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.314554] (-) TimerEvent: {}
+[5.364277] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_tutorial_interfaces_egg\n'}
+[5.414704] (-) TimerEvent: {}
+[5.515088] (-) TimerEvent: {}
+[5.615745] (-) TimerEvent: {}
+[5.716375] (-) TimerEvent: {}
+[5.817124] (-) TimerEvent: {}
+[5.917721] (-) TimerEvent: {}
+[6.018299] (-) TimerEvent: {}
+[6.094857] (tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target tutorial_interfaces__cpp\n'}
+[6.118420] (-) TimerEvent: {}
+[6.218792] (-) TimerEvent: {}
+[6.243896] (tutorial_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__description.c.o\x1b[0m\n'}
+[6.244974] (tutorial_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o\x1b[0m\n'}
+[6.247766] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o\x1b[0m\n'}
+[6.248256] (tutorial_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[6.248861] (tutorial_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[6.249438] (tutorial_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__description.c.o\x1b[0m\n'}
+[6.250696] (tutorial_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[6.251621] (tutorial_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__description.c.o\x1b[0m\n'}
+[6.252112] (tutorial_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[6.318949] (-) TimerEvent: {}
+[6.419403] (-) TimerEvent: {}
+[6.431377] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[6.519563] (-) TimerEvent: {}
+[6.524273] (tutorial_interfaces) StdoutLine: {'line': b'[ 24%] Built target tutorial_interfaces__rosidl_generator_c\n'}
+[6.547339] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.547748] (tutorial_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.548050] (tutorial_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.548413] (tutorial_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.549500] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.549731] (tutorial_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.619707] (-) TimerEvent: {}
+[6.720176] (-) TimerEvent: {}
+[6.820648] (-) TimerEvent: {}
+[6.921091] (-) TimerEvent: {}
+[7.021523] (-) TimerEvent: {}
+[7.110743] (tutorial_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[7.118406] (tutorial_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[7.118729] (tutorial_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.124275] (-) TimerEvent: {}
+[7.134339] (tutorial_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o\x1b[0m\n'}
+[7.134823] (tutorial_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o\x1b[0m\n'}
+[7.135031] (tutorial_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.224411] (-) TimerEvent: {}
+[7.239211] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.239605] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[7.242083] (tutorial_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o\x1b[0m\n'}
+[7.252589] (tutorial_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.271288] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o\x1b[0m\n'}
+[7.271731] (tutorial_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[7.309862] (tutorial_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[7.312535] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o\x1b[0m\n'}
+[7.327288] (-) TimerEvent: {}
+[7.357183] (tutorial_interfaces) StdoutLine: {'line': b'[ 61%] Built target tutorial_interfaces__rosidl_typesupport_c\n'}
+[7.361092] (tutorial_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[7.361530] (tutorial_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[7.372312] (tutorial_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[7.380393] (tutorial_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o\x1b[0m\n'}
+[7.427434] (-) TimerEvent: {}
+[7.478702] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.527572] (-) TimerEvent: {}
+[7.567448] (tutorial_interfaces) StdoutLine: {'line': b'[ 70%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[7.595576] (tutorial_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[7.629312] (-) TimerEvent: {}
+[7.729992] (-) TimerEvent: {}
+[7.830688] (-) TimerEvent: {}
+[7.931391] (-) TimerEvent: {}
+[8.035585] (-) TimerEvent: {}
+[8.136036] (-) TimerEvent: {}
+[8.152449] (tutorial_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.234145] (tutorial_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.236125] (-) TimerEvent: {}
+[8.249290] (tutorial_interfaces) StdoutLine: {'line': b'[ 75%] Built target tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[8.270775] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.326878] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.336252] (-) TimerEvent: {}
+[8.361646] (tutorial_interfaces) StdoutLine: {'line': b'[ 77%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[8.409089] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.436355] (-) TimerEvent: {}
+[8.489997] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[8.510557] (tutorial_interfaces) StdoutLine: {'line': b'[ 79%] Built target tutorial_interfaces\n'}
+[8.531939] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.536449] (-) TimerEvent: {}
+[8.636674] (-) TimerEvent: {}
+[8.736930] (-) TimerEvent: {}
+[8.837160] (-) TimerEvent: {}
+[8.937375] (-) TimerEvent: {}
+[8.994903] (tutorial_interfaces) StdoutLine: {'line': b'[ 81%] Built target tutorial_interfaces__py\n'}
+[9.013928] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o\x1b[0m\n'}
+[9.014115] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o\x1b[0m\n'}
+[9.014183] (tutorial_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[9.037483] (-) TimerEvent: {}
+[9.137285] (tutorial_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[9.137544] (-) TimerEvent: {}
+[9.176962] (tutorial_interfaces) StdoutLine: {'line': b'[ 88%] Built target tutorial_interfaces__rosidl_generator_py\n'}
+[9.194808] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.194993] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.195060] (tutorial_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.237676] (-) TimerEvent: {}
+[9.292553] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.292738] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.292804] (tutorial_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.331720] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[9.331902] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.331968] (tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext\n'}
+[9.337751] (-) TimerEvent: {}
+[9.342506] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.437845] (-) TimerEvent: {}
+[9.445834] (tutorial_interfaces) JobProgress: {'identifier': 'tutorial_interfaces', 'progress': 'install'}
+[9.453965] (tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces'], 'cwd': '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'artifex'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/artifex'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1415'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bbed8c95339cc136505cfcd1672ccd5a'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'artifex'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'artifex'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/home/artifex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/artifex-HP-Pavilion-Gaming-Laptop-15-ec2xxx:@/tmp/.ICE-unix/1415,unix/artifex-HP-Pavilion-Gaming-Laptop-15-ec2xxx:/tmp/.ICE-unix/1415'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f634899d_73e8_4e69_b67b_34b51d5f97bc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/artifex/ros2_hydrotest_sychev_3_srv/build/tutorial_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=bbed8c95339cc136505cfcd1672ccd5a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/iron')]), 'shell': False}
+[9.460783] (tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.461037] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces\n'}
+[9.461284] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.json\n'}
+[9.461451] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.json\n'}
+[9.461637] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.json\n'}
+[9.461811] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.461936] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.462021] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.462090] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[9.462173] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.h\n'}
+[9.462350] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.h\n'}
+[9.462477] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.h\n'}
+[9.462560] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.c\n'}
+[9.462722] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.h\n'}
+[9.462841] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__description.c\n'}
+[9.462968] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__functions.h\n'}
+[9.463090] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[9.463301] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.h\n'}
+[9.463445] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__functions.c\n'}
+[9.463558] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__description.c\n'}
+[9.463701] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.h\n'}
+[9.463819] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.h\n'}
+[9.463932] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.464082] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.464190] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.464302] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.c\n'}
+[9.464443] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__functions.h\n'}
+[9.464590] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.h\n'}
+[9.464702] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.h\n'}
+[9.464816] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[9.464930] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__description.c\n'}
+[9.465057] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.h\n'}
+[9.465282] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh\n'}
+[9.465432] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv\n'}
+[9.465612] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so\n'}
+[9.465990] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""\n'}
+[9.466091] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.466173] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.466249] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.466317] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[9.466376] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h\n'}
+[9.466442] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.466513] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.466560] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.466617] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[9.466677] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.466986] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.467051] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.467121] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.467166] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.467229] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__traits.hpp\n'}
+[9.467308] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__builder.hpp\n'}
+[9.467419] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__struct.hpp\n'}
+[9.467528] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__traits.hpp\n'}
+[9.467695] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__builder.hpp\n'}
+[9.467812] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__struct.hpp\n'}
+[9.467919] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/num.hpp\n'}
+[9.468029] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/sphere.hpp\n'}
+[9.468108] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.468194] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.468272] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp\n'}
+[9.468367] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp\n'}
+[9.468504] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp\n'}
+[9.468611] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/add_three_ints.hpp\n'}
+[9.468795] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.468862] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.468949] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.469001] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.469072] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.469142] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/dds_fastrtps\n'}
+[9.469239] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.469356] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.469444] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.469489] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[9.469546] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.469642] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.470046] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.470109] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.470161] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.470227] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.470290] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.c\n'}
+[9.470350] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h\n'}
+[9.470461] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[9.470570] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.c\n'}
+[9.470730] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.470866] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.470914] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.470977] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[9.471038] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.c\n'}
+[9.471222] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.471543] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.471642] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so\n'}
+[9.471871] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[9.471954] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces\n'}
+[9.472043] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg\n'}
+[9.472097] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail\n'}
+[9.472166] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__type_support.cpp\n'}
+[9.472209] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.472300] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__type_support.cpp\n'}
+[9.472362] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.472515] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv\n'}
+[9.472589] (tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail\n'}
+[9.472670] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp\n'}
+[9.472741] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/include/tutorial_interfaces/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.472826] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.473248] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.473327] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[9.473686] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[9.473750] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh\n'}
+[9.473864] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv\n'}
+[9.473991] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info\n'}
+[9.474140] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.474291] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.474384] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.474485] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.474620] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces\n'}
+[9.474703] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[9.474869] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/__init__.py\n'}
+[9.474959] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.475079] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.475204] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg\n'}
+[9.475307] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_num.py\n'}
+[9.475447] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_sphere_s.c\n'}
+[9.475538] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/__init__.py\n'}
+[9.475668] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_sphere.py\n'}
+[9.475759] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_num_s.c\n'}
+[9.475864] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[9.476007] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.476149] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.476317] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.476435] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv\n'}
+[9.476511] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/__init__.py\n'}
+[9.476650] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c\n'}
+[9.476754] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/_add_three_ints.py\n'}
+[9.504987] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces'...\n"}
+[9.505125] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/__init__.py'...\n"}
+[9.505191] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg'...\n"}
+[9.505264] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/__init__.py'...\n"}
+[9.505322] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_num.py'...\n"}
+[9.505371] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/msg/_sphere.py'...\n"}
+[9.505418] (tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv'...\n"}
+[9.505464] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/__init__.py'...\n"}
+[9.505511] (tutorial_interfaces) StdoutLine: {'line': b"Compiling '/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/srv/_add_three_ints.py'...\n"}
+[9.508196] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.508482] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.508683] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.509088] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.509308] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.509707] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/python3.10/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[9.509806] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so\n'}
+[9.510114] (tutorial_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_py.so" to ""\n'}
+[9.510195] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl\n'}
+[9.510311] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl\n'}
+[9.510456] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl\n'}
+[9.510606] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg\n'}
+[9.510754] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg\n'}
+[9.510897] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv\n'}
+[9.511033] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg\n'}
+[9.511174] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg\n'}
+[9.511402] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces\n'}
+[9.511572] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces\n'}
+[9.511726] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[9.511861] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.512006] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh\n'}
+[9.512144] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv\n'}
+[9.512293] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash\n'}
+[9.512435] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh\n'}
+[9.512575] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh\n'}
+[9.512709] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv\n'}
+[9.512857] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv\n'}
+[9.513043] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces\n'}
+[9.513233] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[9.513388] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.513540] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.513693] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.513845] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[9.514004] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.514150] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.514358] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.514509] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.514661] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[9.514808] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.514971] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.515122] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.515276] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[9.515437] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.515601] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[9.515756] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/export_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.515897] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.516037] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.516179] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.516337] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.516493] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.516633] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.516772] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.516922] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake\n'}
+[9.517041] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake\n'}
+[9.517182] (tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/artifex/ros2_hydrotest_sychev_3_srv/install/tutorial_interfaces/share/tutorial_interfaces/package.xml\n'}
+[9.519670] (tutorial_interfaces) CommandEnded: {'returncode': 0}
+[9.537925] (-) TimerEvent: {}
+[9.638123] (-) TimerEvent: {}
+[9.652096] (tutorial_interfaces) JobEnded: {'identifier': 'tutorial_interfaces', 'rc': 0}
+[9.652682] (-) EventReactorShutdown: {}
